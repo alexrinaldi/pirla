@@ -28,3 +28,44 @@
 #10 /home/runner/work/pirla/pirla/artisan(21): Illuminate\\Foundation\\Console\\Kernel->handle()
 #11 {main}
 "} 
+[2026-02-18 18:43:51] local.ERROR: Trait "Laravel\Sanctum\HasApiTokens" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Laravel\\Sanctum\\HasApiTokens\" not found at /home/runner/work/pirla/pirla/app/Models/User.php:15)
+[stacktrace]
+#0 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(247): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: '...', code: '...', error: '...', traceOffset: '...', traceArgs: '...', trace: '...')
+#1 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(234): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '...', traceOffset: '...')
+#2 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure:/home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:257-259}()
+#4 /home/runner/work/pirla/pirla/vendor/composer/ClassLoader.php(576): ()
+#5 /home/runner/work/pirla/pirla/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure:/home/runner/work/pirla/pirla/vendor/composer/ClassLoader.php:575-577}(file: '...')
+#6 /home/runner/work/pirla/pirla/vendor/psy/psysh/src/ExecutionClosure.php(41) : eval()'d code(15): Composer\\Autoload\\ClassLoader->loadClass(class: '...')
+#7 /home/runner/work/pirla/pirla/vendor/psy/psysh/src/ExecutionClosure.php(41): ()
+#8 /home/runner/work/pirla/pirla/vendor/psy/psysh/src/ExecutionClosure.php(90): Psy\\{closure:/home/runner/work/pirla/pirla/vendor/psy/psysh/src/ExecutionClosure.php:28-61}()
+#9 /home/runner/work/pirla/pirla/vendor/psy/psysh/src/Shell.php(1653): Psy\\ExecutionClosure->execute()
+#10 /home/runner/work/pirla/pirla/vendor/laravel/tinker/src/Console/TinkerCommand.php(77): Psy\\Shell->execute(code: '...', throwExceptions: '...')
+#11 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Tinker\\Console\\TinkerCommand->handle()
+#12 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure:/home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35-37}()
+#13 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(value: '...')
+#14 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(container: '...', callback: '...', default: '...')
+#15 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call(container: '...', callback: '...', parameters: '...', defaultMethod: '...')
+#16 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Console/Command.php(213): Illuminate\\Foundation\\Application->call(callback: '...', parameters: '...', defaultMethod: '...')
+#17 /home/runner/work/pirla/pirla/vendor/symfony/console/Command/Command.php(341): Laravel\\Tinker\\Console\\TinkerCommand->execute(input: '...', output: '...')
+#18 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Console/Command.php(182): Laravel\\Tinker\\Console\\TinkerCommand->run(input: '...', output: '...')
+#19 /home/runner/work/pirla/pirla/vendor/symfony/console/Application.php(1102): Laravel\\Tinker\\Console\\TinkerCommand->run(input: '...', output: '...')
+#20 /home/runner/work/pirla/pirla/vendor/symfony/console/Application.php(356): Illuminate\\Console\\Application->doRunCommand(command: '...', input: '...', output: '...')
+#21 /home/runner/work/pirla/pirla/vendor/symfony/console/Application.php(195): Illuminate\\Console\\Application->doRun(input: '...', output: '...')
+#22 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Illuminate\\Console\\Application->run(input: '...', output: '...')
+#23 /home/runner/work/pirla/pirla/artisan(21): Illuminate\\Foundation\\Console\\Kernel->handle(input: '...', output: '...')
+#24 /home/runner/work/pirla/pirla/artisan(0): {main}()
+#25 {main}
+"} 
+[2026-02-18 18:44:21] local.ERROR: Trait "Laravel\Sanctum\HasApiTokens" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Laravel\\Sanctum\\HasApiTokens\" not found at /home/runner/work/pirla/pirla/app/Models/User.php:15)
+[stacktrace]
+#0 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(247): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: '...', code: '...', error: '...', traceOffset: '...', traceArgs: '...', trace: '...')
+#1 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(234): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '...', traceOffset: '...')
+#2 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure:/home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:257-259}()
+#4 /home/runner/work/pirla/pirla/vendor/composer/ClassLoader.php(576): ()
+#5 /home/runner/work/pirla/pirla/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure:/home/runner/work/pirla/pirla/vendor/composer/ClassLoader.php:575-577}(file: '...')
+#6 /tmp/verify_models.php(59): Composer\\Autoload\\ClassLoader->loadClass(class: '...')
+#7 /tmp/verify_models.php(0): {main}()
+#8 {main}
+"} 
