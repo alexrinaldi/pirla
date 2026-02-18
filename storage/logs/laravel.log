@@ -1,0 +1,30 @@
+[2026-02-18 18:39:37] local.ERROR: The "--pretend" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--pretend\" option does not exist. at /home/runner/work/pirla/pirla/vendor/symfony/console/Input/ArgvInput.php:226)
+[stacktrace]
+#0 /home/runner/work/pirla/pirla/vendor/symfony/console/Input/ArgvInput.php(155): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/runner/work/pirla/pirla/vendor/symfony/console/Input/ArgvInput.php(88): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/runner/work/pirla/pirla/vendor/symfony/console/Input/ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/runner/work/pirla/pirla/vendor/symfony/console/Input/Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/runner/work/pirla/pirla/vendor/symfony/console/Command/Command.php(295): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Console/Command.php(182): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/runner/work/pirla/pirla/vendor/symfony/console/Application.php(1102): Illuminate\\Console\\Command->run()
+#7 /home/runner/work/pirla/pirla/vendor/symfony/console/Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/runner/work/pirla/pirla/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run()
+#10 /home/runner/work/pirla/pirla/artisan(21): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2026-02-18 18:39:40] local.ERROR: The "--pretend" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--pretend\" option does not exist. at /home/runner/work/pirla/pirla/vendor/symfony/console/Input/ArgvInput.php:226)
+[stacktrace]
+#0 /home/runner/work/pirla/pirla/vendor/symfony/console/Input/ArgvInput.php(155): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/runner/work/pirla/pirla/vendor/symfony/console/Input/ArgvInput.php(88): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/runner/work/pirla/pirla/vendor/symfony/console/Input/ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/runner/work/pirla/pirla/vendor/symfony/console/Input/Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/runner/work/pirla/pirla/vendor/symfony/console/Command/Command.php(295): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Console/Command.php(182): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/runner/work/pirla/pirla/vendor/symfony/console/Application.php(1102): Illuminate\\Console\\Command->run()
+#7 /home/runner/work/pirla/pirla/vendor/symfony/console/Application.php(356): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/runner/work/pirla/pirla/vendor/symfony/console/Application.php(195): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/runner/work/pirla/pirla/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run()
+#10 /home/runner/work/pirla/pirla/artisan(21): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
