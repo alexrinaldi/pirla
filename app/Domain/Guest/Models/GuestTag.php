@@ -25,7 +25,6 @@ class GuestTag extends Model
      */
     public function guests(): BelongsToMany
     {
-        return $this->belongsToMany(Guest::class, 'guest_guest_tag')
-            ->withTimestamps();
+        return $this->belongsToMany(Guest::class, 'guest_guest_tag');
     }
 }

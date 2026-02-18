@@ -3,7 +3,7 @@
         'name' => 'alexrinaldi/pirla',
         'pretty_version' => 'dev-copilot/initialize-hotel-pms-architecture',
         'version' => 'dev-copilot/initialize-hotel-pms-architecture',
-        'reference' => 'ed4413253f9402bcd57d27d23cb35aabf109cfc1',
+        'reference' => '9c301dd8c1bcda268bf8f448c58044d78ff85b4c',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'alexrinaldi/pirla' => array(
             'pretty_version' => 'dev-copilot/initialize-hotel-pms-architecture',
             'version' => 'dev-copilot/initialize-hotel-pms-architecture',
-            'reference' => 'ed4413253f9402bcd57d27d23cb35aabf109cfc1',
+            'reference' => '9c301dd8c1bcda268bf8f448c58044d78ff85b4c',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

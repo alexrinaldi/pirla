@@ -46,7 +46,7 @@ class Guest extends Model
         return $this->belongsToMany(
             \App\Domain\Reservation\Models\Reservation::class,
             'reservation_guest'
-        )->withPivot('is_primary')->withTimestamps();
+        )->withPivot('is_primary');
     }
 
     /**
@@ -54,8 +54,7 @@ class Guest extends Model
      */
     public function tags(): BelongsToMany
     {
-        return $this->belongsToMany(GuestTag::class, 'guest_guest_tag')
-            ->withTimestamps();
+        return $this->belongsToMany(GuestTag::class, 'guest_guest_tag');
     }
 
     /**

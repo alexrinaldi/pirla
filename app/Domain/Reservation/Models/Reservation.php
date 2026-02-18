@@ -54,7 +54,7 @@ class Reservation extends Model
         return $this->belongsToMany(
             \App\Domain\Guest\Models\Guest::class,
             'reservation_guest'
-        )->withPivot('is_primary')->withTimestamps();
+        )->withPivot('is_primary');
     }
 
     /**
